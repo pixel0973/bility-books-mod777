@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "abilitybooks",
+  "version": "${version}",
+  "name": "Ability Books",
+  "description": "Книги с уникальными способностями и испытаниями для их открытия.",
+  "authors": [],
+  "license": "All-Rights-Reserved",
+  "icon": "assets/abilitybooks/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.abilitybooks.AbilityBooksMod"],
+    "client": ["com.abilitybooks.client.AbilityBooksClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
